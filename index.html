@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Comment analysis</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <h1>Test</h1>
+    <div class="container">
+        <header class="header">
+            <div class="header-logo">
+                <a href="index.html"><img src="SIC.png" alt="Logo"></a>
+            </div>
+            <!-- <nav class="nav">
+                <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    </ul>
+            </nav> -->
+        </header>
+
+
+        <main class="main">
+            <h1 class="title">Comment analysis</h1>
+            <form class="form">
+                <div class="input-group">
+                    <textarea class="input-text" placeholder="Nhập văn bản"></textarea>
+                    <div class="custom-file-input">
+                        <label for="file-upload">
+                          <i class="fas fa-cloud-upload-alt"></i> 
+                        </label>
+                        <input id="file-upload" type="file" style="display: none;" />
+                      </div>
+                </div>
+                <button class="submit-btn">Analyze</button>
+            </form>
+        </main>
+    </div>
 </body>
 </html>
